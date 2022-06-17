@@ -82,7 +82,8 @@ unsigned long int nCr(int n, int r)
 
 /*
     nCr with repitions allowed (nCr(n+(r-1), r) is counting multisets of length r.
-    In other words for every selection we have r-1 more choices than nCr as we are not removing choices.
+    In other words for every selection after the first we have 1 more selection than nCr as we are not removing choices.
+	For r selections we have r-1 more choices than nCr.
     Defining as nMr. 
  */
 unsigned long int nMr(int n, int r)
