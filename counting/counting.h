@@ -3,7 +3,7 @@
     Description:    Familiar counting methods from discrete mathematics
                                                                             With Reptitions        Without Repitions
                     (Permutations / Sequence) Order Matters:                n^r                    nPr
-                    (Combinations / Subsets)  Order does not Matter:        n+(r-1)Cr            nCr                        
+                    (Combinations / Subsets)  Order does not Matter:        n+(r-1)Cr              nCr                        
     
                     n: objects in the set
                     r: number of times a selection from the set is made
