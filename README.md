@@ -1,4 +1,4 @@
-#COEUS
+# COEUS
 A collection of implementations of ideas from mathematics.
 
 Examples include:
