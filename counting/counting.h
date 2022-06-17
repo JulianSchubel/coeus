@@ -17,9 +17,9 @@
 
 /* For each selection there are n possibile choics. In otherwords the multilication rule for counting in simple form 
 	e.g. set of 2 with 3 choices:
-		  +           +
-		/   \	    /   \
-       +     +     +     +
+	      +           +
+	    /   \	/   \
+           +     +     +     +
 	  / \   / \   / \   / \
 	 +   + +   + +   + +   +
 
