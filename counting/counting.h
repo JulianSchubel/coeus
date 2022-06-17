@@ -8,7 +8,7 @@
                     n: objects in the set
                     r: number of times a selection from the set is made
 
-    Author:            Julian Schubel
+    Author:         Julian Schubel
     Contact:
 
     History:
