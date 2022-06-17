@@ -15,7 +15,7 @@
     ///:            17/06/2022
 ************************************** */
 
-/* For each selection there are n possibile choics. In otherwords the multilication rule for counting in simple form 
+/* For each selection there are n possibile choices. In otherwords the multilication rule for counting in simple form 
     e.g. set of 2 with 3 choices:
           +           +
         /   \       /   \
@@ -65,7 +65,7 @@ unsigned long int nPr(int n, int r)
 
 /*
     Permutations without reptition can be alternately defined as the number of possible sequences of elements from subsets of length r.
-    If C is the number of subsets of length r, then the possible squences for the subsets of length r, is r! (r == n).
+    If C is the number of subsets of length r, then the possible sequences for the subsets of length r, is r! (r == n).
     C * r! = n * n-1 * ... * n-(r-1)
     C = (n * n-1 * ... * n-(r-1)) / r!
     
