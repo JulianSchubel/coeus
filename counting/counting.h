@@ -1,5 +1,5 @@
 /* **************************************
-    Title:            Permutations and Combinations
+    Title:          Permutations and Combinations
     Description:    Familiar counting methods from discrete mathematics
                                                                             With Reptitions        Without Repitions
                     (Permutations / Sequence) Order Matters:                n^r                    nPr
