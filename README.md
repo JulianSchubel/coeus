@@ -3,7 +3,7 @@ A collection of c++ implementations of ideas from mathematics.
 
 ## Contents
 1. Basic arithmetic
-   - Newton's method for determining the square root
+   - Newton's method for approximating square roots
 2. Algebra
    - Polynomials
 3. Discrete Mathematics
