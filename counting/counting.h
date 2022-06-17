@@ -58,7 +58,8 @@ unsigned long int nPr(int n, int r)
     unsigned long int P = 1;
     for(int i = 0; i < r; ++i)
     {
-        P *= n-i; }
+        P *= n-i; 
+    }
     return P;
 }
 
@@ -75,7 +76,7 @@ unsigned long int nCr(int n, int r)
     {
         return 0;
     }
-    unsigned long int C    = nPr(n, r) / nPr(r, r);    
+    unsigned long int C = nPr(n, r) / nPr(r, r);    
     return C;
 }
 
