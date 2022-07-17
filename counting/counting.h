@@ -15,7 +15,7 @@
     ///:            17/06/2022
 ************************************** */
 
-/* For each selection there are n possibile choices. In otherwords the multilication rule for counting in simple form 
+/* For each selection there are n possibile choices. In otherwords the multiplication rule for counting in simple form 
     e.g. set of 2 with 3 choices:
           +           +
         /   \       /   \
