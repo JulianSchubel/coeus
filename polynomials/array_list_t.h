@@ -63,7 +63,8 @@ template<typename type> class array_list_t
 		bool is_empty() const;
 		bool is_full() const;
 		int search(const type& element) const;	
-		//OVERLOADED OPERATORS FUNCTIONS
+		
+		//OVERLOADED OPERATOR FUNCTIONS
 		array_list_t& operator =(const array_list_t& obj);			
 		type& operator [](int index) const;
 
