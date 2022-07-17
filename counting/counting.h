@@ -69,6 +69,8 @@ unsigned long int nPr(int n, int r)
     C * r! = n * n-1 * ... * n-(r-1)
     C = (n * n-1 * ... * n-(r-1)) / r!
     
+    Note: n! (n factorial) is defined as being the possible permutations (without repetition) of length n of a set of n elements. That is, n = r.
+    Note: 0! is defined to be 1: An empty data set cannot be arranged and that is precisely the only permutation (that it cannot). Hence 0! = 1.  
  */
 unsigned long int nCr(int n, int r)
 {
