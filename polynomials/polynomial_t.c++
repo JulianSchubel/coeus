@@ -97,7 +97,7 @@ polynomial_t polynomial_t::operator* (const polynomial_t& obj) const
 		{
 			if( a + b == i ) //Include only those coefficient products for which the product of their variables are of the correct degree
 			{
-				if(length > obj.length)	//Determine which array is longest and therefore corresponds to the monomial term with largest degree.
+				if(length > obj.length)	//Determine which array is longest and therefore contains to the monomial term with largest degree.
 				{
 					(a >= obj.length || b >= length) ? coefficient : coefficient += array[b] * obj.array[a]; 	//consider non-existent a or b as 0
 				}
